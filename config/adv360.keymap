@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_Layer__4 {
+            bindings = <
+ &trans       &trans            &trans          &trans              &trans  &trans            &trans                                                  &trans  &trans               &trans           &trans             &trans               &trans  &trans
+ &trans       &trans            &trans          &trans              &trans  &trans            &trans                                                  &trans  &trans               &trans           &trans             &trans               &trans  &trans
+ &trans  &mt A LCTRL  &mt S LEFT_SHIFT  &mt D LEFT_ALT  &mt F LEFT_COMMAND  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &mt J RIGHT_COMMAND  &mt K RIGHT_ALT  &mt L RIGHT_SHIFT  &mt SEMICOLON RCTRL  &trans
+ &trans       &trans            &trans          &trans              &trans  &trans                            &trans                  &trans                  &trans               &trans           &trans             &trans               &trans  &trans
+ &trans       &trans            &trans          &trans              &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                       &trans           &trans             &trans               &trans  &trans
+            >;
+        };
+
     };
 };
