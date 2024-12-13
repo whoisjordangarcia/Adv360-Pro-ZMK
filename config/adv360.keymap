@@ -37,7 +37,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
@@ -58,7 +57,7 @@
             >;
         };
 
-        layer_fn___VOL {
+        layer_fn_vol {
             bindings = <
  &kp F1      &kp F2             &kp F3        &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
   &none  &kp C_PREV   &kp C_PLAY_PAUSE    &kp C_NEXT   &none   &none             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
@@ -78,11 +77,11 @@
             >;
         };
 
-        layer_Layer__4 {
+        layer_homerow {
             bindings = <
  &trans       &trans            &trans          &trans      &trans  &trans            &trans                                                  &trans  &trans      &trans           &trans             &trans               &trans  &trans
  &trans       &trans            &trans          &trans      &trans  &trans            &trans                                                  &trans  &trans      &trans           &trans             &trans               &trans  &trans
- &trans  &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_ALT D  &mt LCMD F  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &mt RCMD J  &mt RIGHT_ALT K  &mt RIGHT_SHIFT L  &mt RCTRL SEMICOLON  &trans
+ &trans  &hm A LCMD  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RCMD SEMICOLON  &trans
  &trans       &trans            &trans          &trans      &trans  &trans                            &trans                  &trans                  &trans      &trans           &trans             &trans               &trans  &trans
  &trans       &trans            &trans          &trans      &trans                    &trans  &trans  &trans                  &trans  &trans  &trans              &trans           &trans             &trans               &trans  &trans
             >;
